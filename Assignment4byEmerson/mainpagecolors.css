@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(242, 111, 111);
+}
+p{
+   font-family: Arial, Helvetica, sans-serif; 
+}
+a{
+    color:red;
+}
+main{
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+h1{
+    color:orange;
+    font-weight: normal;
+    font-style: italic;
+}
+h2{
+    color:orange;
+    font-weight: normal;
+    font-style: italic;
+}
+h3{
+    color:orange;
+    font-weight: normal;
+    font-style: italic;
+}
+img{
+   border-style: solid;
+   border-width: 10px;
+   border-color: yellow black yellow black; 
+}
+nav{
+    text-align: center;
+}
+b{
+    color:rgb(96, 106, 243);
+}
+a:link{
+    color:red;
+}
+
+a:hover{
+    color:yellow;
+}
+a:visited{
+    color:green;
+}
+#Basic-Infomations{
+    color:aqua
+}
+.spanstyle{
+    color:rgb(0, 255, 255);
+}
