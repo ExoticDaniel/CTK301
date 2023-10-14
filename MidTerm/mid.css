@@ -1,0 +1,137 @@
+body{
+    background-color: lightgray;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    border-right: 5px solid blue;
+    width: 232px; 
+    background-image: linear-gradient(rgb(31, 191, 255), rgb(24, 109, 255));
+    color: black;
+    display: inline-block;
+    
+}
+nav li a{
+    color:lightskyblue;
+    text-decoration: none;
+    display: block;
+    padding: 15px; 
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+nav li a:hover{
+    color: white;
+
+}
+.boldlink a{
+    text-decoration: none;
+    color: red;
+}
+.boom{
+    border: solid blue 5px;
+    float: left;
+
+}
+.rocky{
+    border: solid blue 5px;
+    float: right;
+}
+.Evelyn{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+#Evelyn h2{
+    border-bottom: 5px solid darkblue;
+    margin: 10px;
+    color: darkblue;
+}
+.Waymond{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+#Waymond h2{
+    border-bottom: 5px solid darkblue;
+    margin: 10px;
+    color: darkblue;
+}
+.Joy{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+#Joy h2{
+    border-bottom: 5px solid darkblue;
+    margin: 10px; 
+    color: darkblue;
+}
+#main-wrapper{
+    margin: 1em auto;
+    width: 960px;
+    border: 5px solid blue;
+    background-color: white;
+    
+}
+#Welcome{
+    background-color: lightskyblue;
+
+}
+#Welcome h2{
+    border-bottom: 5px solid darkblue;
+}
+#text{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+#main-text{
+    grid-column: span 2;
+    padding: 10px;
+}
+
+
+#main-text h2{
+    border-bottom: 5px solid darkblue;
+}
+
+header{
+    grid-column: span 12; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 15px;
+    background-image: linear-gradient(rgb(31, 191, 255), rgb(24, 109, 255));
+    color: lightskyblue;
+
+}
+nav{
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+    background-color: blue;
+}
+#wrapper{
+    background-image: linear-gradient(rgb(31, 191, 255), rgb(24, 109, 255));
+
+}
+h1 a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightskyblue;
+    
+}
+main{
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+footer{
+    grid-row: span 3;
+    background-color: red;
+    border-top: 5px solid blue;
+}
