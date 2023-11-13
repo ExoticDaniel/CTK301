@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  background-image: linear-gradient(rgb(31, 191, 255), rgb(24, 109, 255));
+  display: grid;
+  }
+.navi ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+ 
+}
+.navi li{
+  display: inline;
+  float: right;
+  background-image: linear-gradient(rgb(31, 191, 255), rgb(24, 109, 255));
+  border-right: 3px solid black;
+  border: 3px solid black;
+}
+.navi li a{
+  display: block;
+  color:lightskyblue;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navi li a:hover{
+  color: white;
+
+}
+.me{
+  border-radius: 50%;
+  float:left; 
+}
+h1{ 
+  text-align: center;
+  border: 5px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+}
+#text p{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
+}
+.projectinfo p{
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.projectinfo h2{
+  text-align: right;
+}
+.gotham{
+  float: left;
+  border: solid 5px black ;
+}
+.drawing{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+footer{
+    
+    background-color: lightskyblue;
+  
+}
+video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+font-family: 'Edu TAS Beginner', cursive;
+}
