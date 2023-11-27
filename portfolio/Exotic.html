@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exotic Lobby</title>
+	<link href="Exotic.css" rel="stylesheet" type="text/css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+
+</head>
+<body>
+	<div id="wrapper">
+		<!-- These dummy columns are just to show the grid columns, replace with your HTML -->
+		<div class="dummycolumn">
+		</div>
+		<div class="navi">
+			<nav>
+				<img src = "me.png	" class = "me">
+				<ul>
+					<li><a href="#">About Me</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Welcome Page </a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="dummycolumn">
+			<header>
+				<h1 class = "welcome"> Welcome to my site
+				<link rel="preconnect" href="https://fonts.googleapis.com">
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+				<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet">
+				</h1>
+			</header>
+		</div>
+		<div id = "text">
+			<main>
+				<p> Hi! My name is Emerson Gonzalez and welcome to my website that I've built!</p> 
+				<p>	Feel free to take a look around this webiste and if there's anythig you see that you like </p>
+				<p> then check it out!</p>
+			</main>
+		</div>
+		<div id = "newwrapper">
+			<div  id="myCarousel" class="f-carousel">
+				<div class="f-carousel__slide"><img src="drawings.png" ></div>
+				<div class="f-carousel__slide"><img src="spidey.png"></div>
+				<div class="f-carousel__slide"><img src="anime.png"></div>
+			</div>
+		</div>
+		<div class="dummycolumn"></div>
+		<div class="dummycolumn">
+			<h2> Current Works</h2>
+		</div>
+		<div class="projectinfo">
+			<img src ="project2.png" class= "gotham">
+			<h2>Gotham City Website</h2>
+			<p> This project idea started with a friend and I was able to work togther</p>
+			<p>with another person to create this website with another person and</p> 
+			<p>worked together a "fan-fiction" website based from the city</p> 
+			<p>from the Batman franchise</p>
+		</div>
+		<video width="640" height="360" autoplay controls loop preload="auto" >
+			<source src="garfield dancing to happy low quality.mp4" type="video/mp4">
+		  </video>
+	</div>
+	
+	<div class="end">
+			<footer>
+				<p>This website was made by Exotic Production</p>
+				<p>Contact Me: +1 (312) 618 4279</p>
+				<p>Email: emersongonzalez225@gmail.com</p>
+				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+				<a href="https://www.instagram.com/exotic_gamer72/" target="_blank" class="bi bi-instagram"></a>
+			
+			</footer>
+		</div>
+	<script>
+		const container = document.getElementById("myCarousel");
+		const options = { infinite: false };
+		new Carousel(container, options);
+	</script>
+</body>
+</html>
